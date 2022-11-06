@@ -15,14 +15,12 @@ public class Lab1 {
         System.out.println(bc+" Катет ВС в см");
         return ab+ac+bc;
     }
-
     //2.Перевести А в байты, В  в гигабайты. Найти их сумму в килобайтах
     public double calculateSumInKilobytes(double a, double b) {
         a*=1048576;
         b/=1024;
         return ((a/1024)+b*1048576);
     }
-
     //4. Вычислить стороны треугольника.
     public double calculateSt(double a, double b, double c, double r) {
         double ab,bc,ac;
@@ -47,6 +45,5 @@ public class Lab1 {
         }
         return point;
     }
-
 }
 
